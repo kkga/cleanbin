@@ -1,3 +1,43 @@
 /* ==========================================================================
    Site styles
    ========================================================================== */
+
+body {
+  background-color: $white;
+  text-align: center;
+}
+
+h1 {
+  font-size: $font-size-1;
+  color: $near-black;
+}
+
+h2 {
+  font-size: $font-size-3;
+  color: $gray-medium;
+}
+
+img {
+  width: 100%;
+}
+
+a.btn {
+  padding: 8px 16px;
+  font-size: $font-size-4;
+  color: $white;
+  background-color: $gray-medium;
+  &:hover {
+    background-color: $gray-dark;
+  }
+}
+
+footer {
+  font-size: $font-size-5;
+  color: $gray-light;
+  a {
+    color: $gray-medium;
+    &:hover {
+      color: &gray-dark
+    }
+  }
+}
