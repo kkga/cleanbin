@@ -278,3 +278,10 @@ div.entry-inner {
 .entries::-webkit-scrollbar-track-piece {
   background-color: #E6E8EE !important;
 }
+
+.entry-content::-webkit-scrollbar-thumb {
+  background-color: #E6E8EE !important;
+}
+
+.entry-content::-webkit-scrollbar-track-piece {
+  background-color: #fff !important;
