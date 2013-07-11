@@ -37,7 +37,7 @@ footer {
   a {
     color: $gray-medium;
     &:hover {
-      color: &gray-dark
+      color: $gray-dark;
     }
   }
 }
