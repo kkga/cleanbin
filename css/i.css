@@ -392,32 +392,27 @@ blockquote {
    Site styles
    ========================================================================== */
 body {
-  background-color: white;
-  text-align: center; }
+  background-color: white; }
 
-h1 {
-  font-size: 64px;
-  color: #111111; }
+hgroup {
+  float: left; }
+  hgroup h1 {
+    font-size: 64px;
+    color: #111111; }
+  hgroup h2 {
+    font-size: 32px;
+    color: #999999; }
 
-h2 {
-  font-size: 32px;
-  color: #999999; }
+div.download {
+  float: right; }
+  div.download a.btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    display: block;
+    background-color: #999999; }
+    div.download a.btn:hover {
+      background-color: #222222; }
 
 img {
   width: 100%; }
-
-a.btn {
-  padding: 8px 16px;
-  font-size: 24px;
-  color: white;
-  background-color: #999999; }
-  a.btn:hover {
-    background-color: #222222; }
-
-footer {
-  font-size: 16px;
-  color: #eeeeee; }
-  footer a {
-    color: #999999; }
-    footer a:hover {
-      color: #222222; }
