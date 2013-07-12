@@ -8,26 +8,24 @@ body {
 
 hgroup {
   float: left;
-}
-
-h1 {
-  font-size: $font-size-1;
-  color: $near-black;
-}
-
-h2 {
-  font-size: $font-size-3;
-  color: $gray-medium;
+  h1 {
+    font-size: $font-size-1;
+    color: $near-black;
+  }
+  h2 {
+    font-size: $font-size-3;
+    color: $gray-medium;
+  }
 }
 
 div.download {
   float: right;
   a.btn {
-  padding: 8px 16px;
-  font-size: $font-size-5;
-  color: $white;
-  display: block;
-  background-color: $gray-medium;
+    padding: 8px 16px;
+    font-size: $font-size-5;
+    color: $white;
+    display: block;
+    background-color: $gray-medium;
     &:hover {
       background-color: $gray-dark;
     }
