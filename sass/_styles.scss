@@ -8,6 +8,7 @@ body {
 
 hgroup {
   float: left;
+  display: inline-block;
   h1 {
     font-size: $font-size-1;
     color: $near-black;
@@ -20,6 +21,7 @@ hgroup {
 
 div.download {
   float: right;
+  display: inline-block;
   a.btn {
     padding: 8px 16px;
     font-size: $font-size-5;
